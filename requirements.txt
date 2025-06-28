@@ -1,0 +1,41 @@
+
+# Core FastAPI and ASGI server
+fastapi==0.110.3
+uvicorn
+
+# CrewAI and its tools
+crewai==0.130.0
+
+# LLM integration (Google Gemini)
+langchain-google-genai==2.1.5 
+google-ai-generativelanguage==0.6.18
+google-search-results
+
+# PDF processing
+langchain-community 
+pypdf 
+
+# Agent-related dependencies
+langchain-core==0.3.66
+langsmith==0.4.4 
+openai==1.68.2 
+litellm 
+
+# Vector DB (ChromaDB)
+chromadb 
+
+# Tokenizer
+tiktoken==0.8.0 #
+
+click==8.1.8
+Jinja2==3.1.4
+jsonschema==4.22.0
+numpy==1.26.4
+oauthlib==3.2.2
+pandas==2.2.2
+pillow==10.3.0
+pydantic
+pydantic_core
+
+# NOT actively using OpenTelemetry, these can be removed to reduce complexity.
+# Excludes Google Cloud client libraries and embedchain due to dependency conflicts.
