@@ -39,5 +39,8 @@ from langchain_community.chat_models import ChatLiteLLM
 The llm object, used by CrewAI agents, was significantly updated to properly connect to Google's Gemini Pro model via Vertex AI using LiteLLM.
 
 **Images**
-![Project Screenshot](Screenshot 2025-06-29 010928.png)
+!(Screenshot 2025-06-29 010928.png)
 
+**Resources**
+https://ai.google.dev/gemini-api/docs
+https://docs.crewai.com/en/introduction
